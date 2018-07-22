@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ClomoWeb</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/index_form.js"></script>
+    <allowedheader>origin</allowedheader>
+</head>
+
+<body>
+    <!-- navbaar -->
+    <div class="navbar-wrapper">
+        <div class="container">
+            <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ml-auto form-inline">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+
+    <div class="modal fade modal1" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="height:700px">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Product name</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" style="padding:20px; height:600px">
+                        <div class="col-sm-5 card bg-light">
+                            <p>product image here</p>
+                        </div>
+                        <div class="col-sm-7 card bg-light">
+                            <div class="card bg-light" style="height:500px">
+                                <p>product description here</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 card bg-light">
+                                    <p>Link 1</p>
+                                </div>
+                                <div class="col-sm-4 card bg-light">
+                                    <p>Link 2</p>
+                                </div>
+                                <div class="col-sm-4 card bg-light">
+                                    <p>Link 3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------ -->
+    <!-- carousel -->
+    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/img1.jpg" class="carousel-image" alt="First slide">
+                <div class="carousel-caption buttonList">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/playstore.png" class="playstore" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/appstore.svg" class="appstore" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="imgcaption">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est eget tristique vestibulum. Fusce et pulvinar erat, id viverra sem. Vivamus porttitor, sapien nec mattis fermentum, sem augue ornare erat, vitae interdum ante sapien id libero. Vestibulum
+                        luctus augue pretium purus posuere.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/img2.jpg" class="carousel-image" alt="Second slide">
+                <div class="carousel-caption buttonList">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/playstore.png" class="playstore" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/appstore.svg" class="appstore" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="imgcaption">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est eget tristique vestibulum. Fusce et pulvinar erat, id viverra sem. Vivamus porttitor, sapien nec mattis fermentum, sem augue ornare erat, vitae interdum ante sapien id libero. Vestibulum
+                        luctus augue pretium purus posuere.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/img3.jpg" class="carousel-image" alt="Third slide">
+                <div class="carousel-caption buttonList">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/playstore.png" class="playstore" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/appstore.svg" class="appstore" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="imgcaption">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est eget tristique vestibulum. Fusce et pulvinar erat, id viverra sem. Vivamus porttitor, sapien nec mattis fermentum, sem augue ornare erat, vitae interdum ante sapien id libero. Vestibulum
+                        luctus augue pretium purus posuere.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselIndicators" role="button " data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- ---- -->
+
+    <div class="tagline">
+        <h1>Tagline</h1>
+        <hr size="30" style="width:90%; margin-bottom: 30px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est eget tristique vestibulum. Fusce et pulvinar erat, id viverra sem. Vivamus porttitor, sapien nec mattis fermentum, sem augue ornare erat, vitae interdum ante sapien id libero.
+            Vestibulum luctus augue pretium purus posuere.</p>
+    </div>
+
+    <div id="products-heading" style="text-align: center; padding-top:30px;">
+        <h1>Products</h1>
+        <hr size="30" style="width:90%;">
+    </div>
+
+
+
+    <div class="container prod">
+        <div class="row ">
+            <div class="col-lg-4 imgcontainer prod" data-toggle="modal" data-target=".modal1">
+                <div>
+                    <img class="img" src="img/img1.jpg" alt="" style="height:50%;width: 100%">
+                </div>
+                <div class="prod-text">
+                    <h2> Heading name</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est eget tristique vestibulum. Fusce et pulvinar erat, id viverra sem. Vivamus porttitor, sapien nec mattis fermentum, sem augue ornare erat, vitae interdum ante
+                        sapien id libero. Vestibulum luctus augue pretium purus posuere.</p>
+                </div>
+
+            </div>
+            <div class="col-lg-4 imgcontainer prod" data-toggle="modal" data-target=".modal1">
+                <div>
+                    <img class="img" src="img/img2.jpg" alt="" style="height:50%;width: 100%">
+                </div>
+                <div class="prod-text">
+                    <h2> Heading name</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est eget tristique vestibulum. Fusce et pulvinar erat, id viverra sem. Vivamus porttitor, sapien nec mattis fermentum, sem augue ornare erat, vitae interdum ante
+                        sapien id libero. Vestibulum luctus augue pretium purus posuere.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 imgcontainer prod" data-toggle="modal" data-target=".modal1">
+                <div>
+                    <img class="img" src="img/img2.jpg" alt="" style="height:50%;width: 100%">
+                </div>
+                <div class="prod-text">
+                    <h2> Heading name</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est eget tristique vestibulum. Fusce et pulvinar erat, id viverra sem. Vivamus porttitor, sapien nec mattis fermentum, sem augue ornare erat, vitae interdum ante
+                        sapien id libero. Vestibulum luctus augue pretium purus posuere.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top:20px;" data-toggle="modal" data-target=".modal1">
+            <div class="col-lg-2"></div>
+            <div class=" col-lg-4 imgcontainer prod">
+                <div>
+                    <img class="img" src="img/img1.jpg" alt="" style="height:50%;width: 100%">
+                </div>
+                <div class="prod-text">
+                    <h2> Heading name</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est eget tristique vestibulum. Fusce et pulvinar erat, id viverra sem. Vivamus porttitor, sapien nec mattis fermentum, sem augue ornare erat, vitae interdum ante
+                        sapien id libero. Vestibulum luctus augue pretium purus posuere.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 imgcontainer prod" data-toggle="modal" data-target=".modal1">
+                <div>
+                    <img class="img" src="img/img2.jpg" alt="" style="height:50%;width: 100%">
+                </div>
+                <div class="prod-text">
+                    <h2> Heading name</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est eget tristique vestibulum. Fusce et pulvinar erat, id viverra sem. Vivamus porttitor, sapien nec mattis fermentum, sem augue ornare erat, vitae interdum ante
+                        sapien id libero. Vestibulum luctus augue pretium purus posuere.</p>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+
+    <div class="aboutus">
+        <h2>About Us</h2>
+        <hr size="30" style="width:90%; margin-bottom: 30px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis est eget tristique vestibulum. Fusce et pulvinar erat, id viverra sem. Vivamus porttitor, sapien nec mattis fermentum, sem augue ornare erat, vitae interdum ante sapien id libero.
+            Vestibulum luctus augue pretium purus posuere.</p>
+    </div>
+    <div class="container-fluid contactus">
+        <h2>Contact Us</h2>
+        <hr size="30" style="width:90%; margin-bottom: 30px;">
+        <form role="form" aciton="demo_test_post.asp" method="post" id="reused_form">
+            <div class="offset-md-3 col-md-6">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <textarea class="form-control" type="textarea" id="message" name="message" placeholder="message" maxlength="6000" rows="7"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-7 form-group">
+                        <button type="submit" class="btn btn-lg btn-default pull-right" id="formsubmitbutton">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+
+
+    </div>
+</body>
+
+<footer>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+            </li>
+        </ul>
+    </nav>
+</footer>
+
+</html>

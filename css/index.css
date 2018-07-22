@@ -1,0 +1,117 @@
+.carousel-image {
+    width: 100%;
+    height: 550px;
+}
+
+.imgcaption {
+    background-color: white;
+    padding: 60px;
+}
+
+.buttonList {
+    top: 450px;
+    display: inline;
+}
+
+.buttonList li {
+    position: static;
+    display: inline-block;
+}
+
+.appstore {
+    height: 50px;
+    width: 120px;
+}
+
+.playstore {
+    height: 60px;
+    width: 140px;
+}
+
+.tagline {
+    padding: 30px;
+    text-align: center;
+    background: whitesmoke
+}
+
+.prod {
+    margin-top: 30px;
+}
+
+.prod-text {
+    /* padding: 50px; */
+    background: whitesmoke;
+    padding: 20px;
+}
+
+.img {
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.midfade {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.imgcontainer:hover .img {
+    opacity: 0.7;
+}
+
+.imgcontainer:hover .midfade {
+    opacity: 1;
+}
+
+.visitbtn {
+    border: 5px solid black;
+    color: black;
+    font-size: 25px;
+    padding: 5px 15px 5px 15px;
+}
+
+.visitbtn:hover {
+    background: black;
+    border-color: black;
+}
+
+.aboutus {
+    margin-top: 50px;
+    padding: 30px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.contactus {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#name,
+#email,
+#subject,
+#formsubmitbutton {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#formsubmitbutton {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#formsubmitbutton:hover {
+    background-color: #4b4e4b;
+    color: white;
+}
